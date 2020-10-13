@@ -15,7 +15,7 @@ public class LoginPage {
 @FindBy(xpath="//div[text()='Login']")WebElement loginbutton;
 public void loginToCRM(String usenameApplication,String passwordApplication ) throws InterruptedException {
 	Thread.sleep(2000);
-	//commit
+
 loginclick.click();
 uname.sendKeys(usenameApplication);
 pass.sendKeys(passwordApplication);
